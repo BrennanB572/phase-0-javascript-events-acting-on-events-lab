@@ -1,12 +1,21 @@
+body {
+  background-color: black;
+}
+
+.description {
+  color: #FF69B4;
+  text-align: center;
+}
+
 #dodger {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 20px;
   position: absolute;
   width: 40px;
 }
 
 #game {
-  background-color: #111;
+  background-color: #221b56;
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
@@ -16,7 +25,7 @@
 }
 
 #start {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 4rem;
   position: relative;
   text-decoration: none;
